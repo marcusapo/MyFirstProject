@@ -1,0 +1,707 @@
+.productSubName{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 13px;
+    margin-top: -7px;
+    color: #fff;
+    padding: 3px 7px;
+    background-color: #afafaf;
+}
+.buttonsubname {
+    width: 100px;
+    height: 30px;
+    background-color: #fa7f72;
+    color: #ff7f50;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.checkgift {
+    z-index: 997;
+    position: fixed;
+    width: 100%;
+    background-color:rgba(240, 248, 255, 0.486) ;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    color: white;
+}
+
+.exit {
+    z-index: 998;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.x {
+    color: #ff1900;
+    font-size: 20px;
+    margin: 20px 26px;
+    cursor: pointer;
+}
+
+
+.checkgift1 {
+    z-index: 999;
+    width: 800px;
+    height: 460px;
+    background-color:#ffffff;
+    border: 4px solid #fa7f72;
+    border-radius: 30px;
+    border-style: double;
+}
+
+.checkgift1 > div:first-child {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: end;
+}
+
+.checkgift1 > div:nth-child(2){
+    color:black;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.window1 > div:nth-child(2) div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window1 {
+    display:none;
+    gap: 20px;
+    background-color: #ff1900;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+}
+
+.window1 > div {
+    display: flex;
+    gap: 20px;
+}
+
+.window1 > p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    font-size: 100px;
+    background: url(../img/Home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    background: url(../img/Logo.png);
+    background-size: 500px;
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.home > div > p {
+   font-size: 170px;
+}
+
+.home > div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.home > a {
+    background-color: #ff7f50;
+    color:white ;
+    border-radius: 40px;
+    width: 350px;
+    height: 90px;
+    border: none;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1 {
+    text-shadow: 2px 3px 2px rgb(0, 0, 0);
+}
+
+.AF {
+    color: #fa7f72;
+    font-family: 'Noto Serif Ahom', serif !important;
+    text-shadow: 5px 5px 5px #fa7f72;
+ }
+
+.heart{
+    font-size: 125px;
+}
+
+.butt:hover {
+    background-color: #fa7f72;
+    color: black;
+}
+
+.gifts1 {
+    height: 100vh;
+    display: flex;
+    background: url(../img/BG-2.png);
+    background-size: cover;
+}
+
+::-webkit-scrollbar-track{
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: none;
+}
+
+.gifts1 > div:first-child {
+    flex: 0.5;
+    display: flex;
+    align-items: flex-start;
+}
+
+.gifts1 > div:first-child > img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.gifts1 > div:last-child  {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.gifts1 > div > div:first-child {
+    width: 100%;
+}
+
+.gifts1 > div > div:first-child > div {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.gifts1 > div > div:first-child > div > div {
+    display: flex;
+    gap: 20px   ;
+}
+
+.gifts1 > div > div:nth-child(2){
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.gifts1 > div > div:nth-child(2) > div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 108px;
+    column-gap: 81px;
+    justify-content: center;
+    max-width: 1037px;
+}
+
+.list > div > div > h2 {
+    font-size: 50px;
+}
+
+.list > div > p {
+    margin-bottom: 25px;
+}
+
+.form {
+    color:white;
+    width: 200px;
+    height:50px;
+    padding-left: 5px;
+    border-radius: 30px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+ }
+
+.form > input {
+    min-height: 50px;
+    width: 70%;
+    border-radius: 30px;
+    padding: 0 15px;
+    border: 2px solid black;
+}
+
+.form > input:focus{
+    outline: none;
+}
+
+.butt2 {
+    background-color: #fa7f72;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    gap: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.butt2:hover {
+    background-color:#ff7f50;
+    color: black;
+}
+
+.af2 {
+    color: #fa7f72;
+    font-size: 35px;   
+}
+
+.flower {
+    width: 430px;
+    height: 330px;
+}
+.presentBase {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.present{
+    color: white;
+    background-color: #ff7f50;
+    border: none;
+    border-radius: 30px;
+    font-size: 31px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    padding: 5px 15px;
+    
+}
+
+.present:hover {
+    background-color: #fa7f72;
+    color: black;
+}
+.line {
+    height: 280px;
+    width: 1px;
+    background-color: rgb(0, 0, 0);
+}
+
+.line2 {
+    width: 300px;
+    height: 1px;
+    background-color: black;
+}
+
+.product {
+    display: flex;
+    max-height: 340px;
+    max-width: 272px;
+    min-width: 200px;
+    font-size: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-width: 100%;
+    border-radius: 10px;
+    max-height: max-content;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.product  > div:first-child {
+    border-radius: 20px;
+    width: 250px;
+    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    gap: 20px;
+}
+
+
+
+.present:hover {
+    background-color:#ff7f50 ;
+    color: black;
+}
+
+.product > p {
+    font-size: 20px;
+}
+
+.thanks {
+    width: 70%;
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    color: #000000;
+    padding-top: 80px;
+    text-shadow: 0px 4px 5px #fff;
+}
+
+.marrieds {
+    padding-top: 50px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.under {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px 3px 2px white;
+}
+
+.background {
+    background-size: 50px;
+    background-repeat: no-repeat;
+    
+}
+.product > button {
+    font-size: 40px;
+}
+
+.productImg {
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:280px;
+}
+.view {
+    background-color: #fa7f72;
+    
+}
+
+.situation1 {
+   opacity: 0.7;
+}
+
+.situation1 > div:last-child {
+    display: none;
+}
+
+#map {
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: #fa7f72;
+    text-shadow: none;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width:1440px) {
+    .gifts1 {
+        gap: 100px;
+    }
+    .home {
+        background-position-x: -174px;
+    }
+    .gifts1 > div:last-child {
+        flex: 0.45;
+    }
+    .gifts1 > div > div:nth-child(2) > div {
+        width: 99%;
+        column-gap: 23px;
+    }
+    .product {
+        max-width: 167px;
+    }
+    .product >div:last-child{
+        width: 100%;
+        font-size: 30px;
+        flex-direction: column;
+    }
+    .thanks{
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    h1 {
+        font-size: 113px;
+    }
+    .gifts1 {
+        justify-content: space-between;
+        gap: 44px;
+        background-repeat: no-repeat;
+        background-position-x: -130px;
+    }
+    .gifts1 > div:first-child {
+        flex: 0.35;
+    }
+    .gifts1 > div > div:nth-child(2) > div {
+        width: 90%;
+    }
+    .product {
+        max-width: 250px;
+        min-width: 250px;
+    }
+    .product > p {
+        font-size: 18px;
+    }
+    .product >div:last-child{
+        font-size: 25px;
+    }
+    .product > div:first-child{
+        max-width: 221px;
+        min-width: 107px;
+    }
+    .present {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .home {
+        background-position-x: -900px;
+    }
+    h1 {
+        font-size: 86px;
+    }
+    .home > div > p {
+        font-size: 125px;
+    }
+    .gifts1{
+        justify-content: center;
+        background-position-x: -740px;
+    }
+    .gifts1 > div:first-child {
+        display: none;
+    }
+    .gifts1 > div:last-child {
+        width: 100%;
+        flex: 1;
+        align-items: center;
+    }
+    .gifts1 > div > div:nth-child(2){
+        width: 90%;
+    }
+    .product {
+        max-width: 183px;
+        min-width: 166px;
+    }
+    .under{
+        width: 90%;
+    }
+    .checkgift1{
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px;
+    }
+    .checkgift1 > div:first-child{
+        height: 100px;
+        align-items: center;
+    }
+    .checkgift1 > div:nth-child(2){
+        height: calc(100vh - 100px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    h1{
+        font-size: 97px;
+    }
+    .home{
+        gap: 60px;
+        background-position-x: -1137px;
+    }
+    .home > div > p {
+        font-size: 102px;
+    }
+    .heart{
+        font-size: 81px;
+    }
+    .home > a{
+        width: 294px;
+        height: 72px;
+    }
+    .gifts1 > div > div:nth-child(2) {
+        width: calc(100% - 80px);
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .gifts1 > div > div:nth-child(2) > div {
+        width: 100%;
+        row-gap: 66px;
+
+    }
+    #boxItems {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        min-width: none;
+        width: 100%;
+        max-height: none;
+        flex-direction: column;
+    }
+    .productImg {
+        width: 100%;
+        height: 112px;
+    }
+    .product > p{
+        font-size: 25px;
+    }
+    .productSubName {
+        font-size: 16px;
+    }
+    .product > div:first-child{
+        width: 100%;
+        height: 30px;
+    }
+    .product >div:last-child{
+        font-size: 18px;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .presentBase {
+        gap: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .present {
+        padding: 5px 10px;
+        font-size: 37px;
+    }
+    .form{
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .form > input {
+        height: 45px;
+        width: 100%;
+    }
+    .form > button{
+        width: 50%;
+    }
+    .window1 > p{
+        font-size: 27px;
+    }
+    .window1 > div{
+        flex-direction: column;
+    }
+    
+    #map {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    h1 {
+        font-size: 77px;
+    }
+    .home > div > p {
+        font-size: 78px;
+    }
+    .heart {
+        font-size: 65px;
+    }
+    .product{
+        width: 70px;
+        height: 371px;   
+        gap: 20px;
+        border-radius: 20px;
+        max-width: 302px;
+        min-width: 311px;
+        padding: 33px;
+    }
+    .product > div{
+        border-radius: 15px;
+    }
+    .window1 > p {
+        font-size: 22px;
+    }
+    .butt2{
+        width: 148px;
+    }
+    
+    #map {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    h1{
+        font-size: 86px;
+    }
+    .home > div > p{
+        font-size: 82px;
+    }
+    .heart{
+        font-size: 66px;
+    }
+    .home > a{
+        width: 259px;
+        height: 66px;
+        font-size: 32px;
+    }
+    .list > div > p{
+        font-size: 40px;
+    }
+    .gifts1 > div > div:nth-child(2){
+        width: 95%;
+    }
+    .product{
+        width: 100px;
+        height: 361px;
+    }
+    .product > p{
+        font-size: 14px;
+    }
+}
