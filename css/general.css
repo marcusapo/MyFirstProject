@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    font-family: 'Alex Brush', cursive;
+}
+
+section {
+    height: 100vh;
+    /* max-width: 2049px; */
+}
+
+.font-alex{
+    font-family: 'Alex Brush', cursive;
+}
+
+.font-times{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.font-franklin{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
